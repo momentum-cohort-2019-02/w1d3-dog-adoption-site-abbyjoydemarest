@@ -2,10 +2,64 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    font-size: 14px;
 }
-h4{
-    margin: 0;
+
+header{
+    background-color:#0000ff;
 }
-.gender{
-    margin:0;
+.dogs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items:flex-start;
+    margin: 1rem;
+}
+
+h1{
+    color: white;
+    text-decoration-style: bold;
+    size: 12px;
+    background-color: blue;
+    border-bottom-color: aqua;
+    border-bottom-width: 15px;
+    padding: 2rem;
+}
+.characteristic-list{
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    align-content: flex-start;
+}
+.character-value{
+    display:flex;
+    flex-wrap: wrap;
+    width: 200px; 
+}
+.forms-box{
+    background-color: gray
+}
+
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forms.formheading{
+ font-style: bold;
+}
+
+.dog_image{
+    width: 200px;
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.nav-image{
+    display:flex;
+    align-content: center;
 }
