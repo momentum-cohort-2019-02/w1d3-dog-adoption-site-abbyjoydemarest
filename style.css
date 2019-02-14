@@ -14,6 +14,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width:900px;
 }
 
 .first-section{
@@ -40,7 +41,7 @@ header{
 .characteristic-list{
     list-style-type: none;
     display: flex;
-    width: 200px;
+    width: 275px;
     align-content: flex-start;
     flex-wrap: wrap;
     font-size: 10px;
@@ -59,6 +60,7 @@ header{
     padding-bottom: 1rem;
     padding-left: 1rem;
     margin-right: 1px;
+    width: 870px;
 }
 
 .forms{
@@ -79,27 +81,51 @@ header{
 .dog_image{
     width: 275px;
 }
-.nav-image{
-     height: 250px;
-
-}
 
 .nav{
     display: flex;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    align-items: stretch;
-}
-.nav.nav2{
-    align-content:center;
-}
-.nav-text{
-    position: absolute;
-    align-content: center;
-    color:white;
-    font-size: 20px;
+    flex-direction: row;
+    justify-content: start;
+    align-items:flex-start;
 }
 
+.nav-text{
+    flex: 1 1 auto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    align-items: stretch;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.donate{
+    background: 
+    linear-gradient(rgba(100, 114, 240, 0.6), rgba(100, 114, 240, 0.6)), 
+     url(starter_files/images/donate.jpg) center/cover;
+    width: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 540;
+}
+.volunteer{
+    background: 
+    linear-gradient(rgba(100, 114, 240, 0.6), rgba(100, 114, 240, 0.6)), 
+     url(starter_files/images/volunteer.jpg) center/cover;
+    width: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 540;
+}
+.our-location{
+    background: 
+    linear-gradient(rgba(100, 114, 240, 0.6),  rgba(100, 114, 240, 0.6)), 
+     url(starter_files/images/location.png) center/cover;
+    width: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 540;
+}
 .content{
     margin-left: 2rem;
 }
@@ -111,10 +137,11 @@ header{
 }
 .dog-name{
     font-size:14px;
-    font: 'Oswald';
+    font-family: 'Oswald';
     font-style: bold;
 }
 
 .form-value{
     padding: 2px;
+    font-size: 14px;
 }
