@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 
-header{
+.header{
     background-color: #033D75;
     color: white;
     text-decoration-style: bold;
@@ -17,27 +17,36 @@ header{
     width:900px;
 }
 
-.first-section{
+.page-name{
     padding-top: 1rem;
     margin-bottom: 1rem;
     font-size: 12px;
 }
 
-.first-section h2{
+.page-name h2{
     font-size: 22px;
 }
 
-.dogs{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: start;
-    align-items:flex-start;
-    margin-top: 5px;
-    margin-right: .5rem;
-    margin-bottom: 1rem;
+.forms-box{
+    background-color:#F0EDEE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-right: 1px;
+    width: 870px;
 }
-
+.forms-box h3{
+    font-size: 14px;
+}
+.forms{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+.form h4{
+    font-style: bold;
+    font-size: 16px;
+   }
 .characteristic-list{
     list-style-type: none;
     display: flex;
@@ -54,30 +63,19 @@ header{
     margin: 1px;
 }
 
-.forms-box{
-    background-color:#F0EDEE;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    margin-right: 1px;
-    width: 870px;
-}
 
-.forms{
+ 
+
+ .dogs{
     display: flex;
-    justify-content: flex-start;
-    font-size: 14px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items:flex-start;
+    margin-top: 5px;
+    margin-right: .5rem;
+    margin-bottom: 1rem;
 }
-
-.forms-box-heading{
- font-style: bold;
- font-size: 16px;
-}
-
- .form-heading{
-     font-size: 14px;
- }
-
 .dog_image{
     width: 275px;
 }
@@ -129,7 +127,7 @@ header{
 .content{
     margin-left: 2rem;
 }
-.section{
+.form{
     margin-right: 3rem;
 }
 .option{
