@@ -2,7 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans';
 }
 
 header{
@@ -17,7 +17,6 @@ header{
 }
 
 .first-section{
-    padding-left: 2rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
     font-size: 12px;
@@ -80,17 +79,27 @@ header{
 .dog_image{
     width: 275px;
 }
+.nav-image{
+     height: 250px;
+
+}
 
 .nav{
     display: flex;
     flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: stretch;
+}
+.nav.nav2{
+    align-content:center;
+}
+.nav-text{
+    position: absolute;
     align-content: center;
+    color:white;
+    font-size: 20px;
 }
 
-.nav-image{
-    display:flex;
-    align-content: center;
-}
 .content{
     margin-left: 2rem;
 }
@@ -99,4 +108,13 @@ header{
 }
 .option{
     margin-top: 5px;
+}
+.dog-name{
+    font-size:14px;
+    font: 'Oswald';
+    font-style: bold;
+}
+
+.form-value{
+    padding: 2px;
 }
